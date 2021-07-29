@@ -1,0 +1,53 @@
+.container {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 60vh;
+  background: no-repeat center/cover url("../images/friends_img.jpeg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+button,
+input,
+label {
+  margin: 1rem;
+  width: 85%;
+  max-width: 400px;
+}
+label {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 700;
+}
+.search-bar {
+  padding-left: 12px;
+  height: 2.75rem;
+  border: 1px solid #ff8d13;
+  border-radius: 8px;
+  background-color: #eeedea;
+}
+.search-button,
+.activity-button {
+  height: 2rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  color: #fefefe;
+}
+
+.search-button {
+  background-color: #ff8d13;
+}
+
+.activity-button {
+  background-color: #e8cd00;
+}
