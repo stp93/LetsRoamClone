@@ -1,7 +1,7 @@
 .nav-bar {
   padding: 1rem;
   margin: 0;
-  height: 8vh;
+  height: 13vh;
   top: 0;
   z-index: 1;
   position: sticky;
@@ -11,5 +11,8 @@
   background-color: #333;
 }
 .nav-bar img {
-  height: 3.5rem;
+  height: 12vh;
+
+  max-height: 55px;
+  max-width: 135px;
 }

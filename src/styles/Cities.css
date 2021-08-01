@@ -25,17 +25,16 @@
   font-size: 1.5rem;
 }
 .grid-cities-container {
-  width: 100%;
+  max-width: 1080px;
 }
 .grid-cities {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 15px 30px;
+  gap: 20px;
   justify-items: center;
-  justify-content: center;
 }
 .card {
-  width: 60%;
+  width: 240px;
   height: auto;
 }
 .card img {
@@ -51,9 +50,11 @@
 }
 @media screen and (max-width: 1200px) {
   .grid-cities {
+    margin-left: 10%;
+    margin-right: 10%;
     display: grid;
     grid-template-columns: repeat(2, auto);
-    gap: 15px 30px;
+    gap: 15px;
   }
   .card {
     width: 80%;

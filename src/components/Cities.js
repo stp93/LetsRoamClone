@@ -57,9 +57,9 @@ const Cities = () => {
             </div>
             <div className="grid-cities-container">
             <div className="grid-cities">
-            {cities.map((e) => {
+            {cities.map((e, idx) => {
                 return(
-                <City photo={e.photo} text={e.text}/>
+                <City key={idx} photo={e.photo} text={e.text}/>
                 )
                 }
             )}
