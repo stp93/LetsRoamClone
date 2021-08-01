@@ -5,8 +5,8 @@ import RemoteWork from "../images/remote_work.jpeg";
 import Event_1 from '../images/small_1.jpeg';
 import Event_2 from '../images/small_2.jpeg';
 import Event_3 from '../images/small_3.jpeg';
-import "../styles/Events.css";
 import "../styles/Lower.css";
+
 
 const Lower = () => {
     return(
@@ -91,10 +91,10 @@ const Lower = () => {
             <div className="form-container">
                 <h2>Join our Newsletter!</h2>
                 <p>Join to get exclusive access to adventure tips, promotions, news, and giveaways.</p>
-                <form className="email-newsletter">
-                    <label className="email-label" htmlFor="email">Subscribe</label>
-                    <input type="email" name="email" id="email-input" />
-                </form>
+                <div className="email-newsletter">
+                    <input type="email" name="email" id="email-input" placeholder="Your Email" />
+                    <button className="email-btn" >Subscribe</button>
+                </div>
             </div>
         </section>
     </>

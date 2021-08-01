@@ -1,5 +1,6 @@
 import './App.css';
 import Cities from "./components/Cities";
+import Footer from "./components/Footer";
 import Lower from "./components/Lower";
 import Nav from "./components/Nav";
 import Search from "./components/Search";
@@ -11,8 +12,8 @@ function App() {
      <Search/>
      <Second/>
      <Cities/>
-    
      <Lower/>
+     <Footer/>
     </div>
   );
 }
